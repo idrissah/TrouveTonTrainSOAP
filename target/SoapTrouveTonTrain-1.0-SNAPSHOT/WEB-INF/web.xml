@@ -3,14 +3,5 @@
          xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>servlets.HelloServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>calculeDistance</servlet-name>
-        <servlet-class>calcule.calculeDistance</servlet-class>
-    </servlet>
-
 
 </web-app>
