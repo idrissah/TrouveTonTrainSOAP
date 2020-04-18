@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+web: bundle exec bin/rails server -p $PORT -e $RAILS_ENV
